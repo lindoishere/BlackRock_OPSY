@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "786005721441",
+    "firebase_url": "https://realtimekeyvalue-default-rtdb.firebaseio.com",
+    "project_id": "realtimekeyvalue",
+    "storage_bucket": "realtimekeyvalue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786005721441:android:2deb093d84517262604520",
+        "android_client_info": {
+          "package_name": "com.example.blackrock_opsy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786005721441-989bkdu8f25bfv6icvcio3t7rlerbh0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs-Ehu0vYZYJmBO59grEVfj2OTT4X6Cds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786005721441-989bkdu8f25bfv6icvcio3t7rlerbh0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

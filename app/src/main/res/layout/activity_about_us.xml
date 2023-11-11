@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    tools:context=".AboutUs">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="348dp"
+        android:layout_height="386dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome to 'BirdWatchPro' – your ultimate companion
+        for bird enthusiasts and nature lovers! Our BirdWatchPro app is
+        designed to help you discover, document, and appreciate the beautiful
+        world of avian wildlife. Whether you're a seasoned ornithologist or a
+        casual observer, this app offers a seamless way to log your bird sightings,
+        explore a comprehensive bird database, and contribute to citizen science.
+         Join us on a journey to connect with the feathered friends around you,
+         explore their habitats, and become part of a global community of birdwatchers.
+         Start your adventure today and let's unlock the mysteries of the skies together!"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="413dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        app:srcCompat="@drawable/logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
