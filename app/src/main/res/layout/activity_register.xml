@@ -6,43 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Register">
 
-    <EditText
-        android:id="@+id/edtNewPassword2"
-        android:layout_width="214dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="596dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/edtUserrName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="520dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-black"
-        android:inputType="text"
-        android:text="Confirm Password"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/edtUserrName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="392dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-black"
-        android:inputType="text"
-        android:text="Password"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -59,8 +22,8 @@
         android:id="@+id/edtUserrName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="260dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="284dp"
         android:ems="10"
         android:fontFamily="sans-serif-black"
         android:inputType="text"
@@ -68,40 +31,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/edtConPassword"
-        android:layout_width="212dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="468dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:shadowColor="#6A6A6A"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/edtNewPassword"
-        android:layout_width="214dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="336dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btnRegisters"
         android:layout_width="172dp"
         android:layout_height="53dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginStart="136dp"
         android:text="Register"
         android:textColorLink="#5C5A5A"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtNewPassword" />
+        tools:layout_editor_absoluteY="698dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -111,4 +50,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="324dp"
+        android:text="Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPasswordTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="446dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
