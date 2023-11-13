@@ -9,6 +9,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import android.view.View
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -48,5 +50,14 @@ class MainActivity : AppCompatActivity() {
 
 
 
+    }
+
+    //on-click event for the registration link
+    fun onRegisterLinkClick(view: View) {
+        // Implement the logic to navigate to the new page when the link is clicked
+        // For example:
+
+        val intent = Intent(this, Register:: class.java)
+        startActivity(intent)
     }
 }
