@@ -38,7 +38,7 @@
         android:layout_marginStart="84dp"
         android:layout_marginTop="304dp"
         android:ems="10"
-        android:hint="UserName"
+        android:hint="Username"
         android:inputType="text"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
